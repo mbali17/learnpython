@@ -16,3 +16,9 @@ gradDict={"Jane":[45,54],"Dave":[34,43],"kary":[35,53],"sumo":[56,65]}
 print(gradDict)
 #obtain the marks scored by jane in first test
 print(gradDict["Jane"][0])
+#when the key is not present keyError is thrown and we can check if the
+#key exists usinf  key in deictionry
+#print(gradDict["Janet"])
+#deleting a key from the dictionary
+del gradDict["Dave"]
+print(gradDict)
