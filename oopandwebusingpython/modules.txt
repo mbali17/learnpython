@@ -6,3 +6,6 @@ to install a module using pip we can follow the syntax
 well, you might run into 'pip' is not a recognised command and you would need to check if 
 the variable has the entry for the pip program.
 
+or 
+ you could use the following website to download the binary and use pip to install it 
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
