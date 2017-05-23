@@ -9,3 +9,18 @@ the variable has the entry for the pip program.
 or 
  you could use the following website to download the binary and use pip to install it 
 http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+python stores the installed modules in the <python_installation_directory>/lib/site-packages
+refer https://stackoverflow.com/questions/25522743/where-does-pip-store-save-python-3-modules-packages-on-windows-8
+
+lib folder consists of the standard libraries that are present in the default python installatio
+
+lib/site-packages consists of the third party module.
+
+when a module is imported it as though the code is present in the current file and reading
+through them would give a great idea about the library itself.
+
+when importing a module python searches the following location for the module
+	1)Local directory where the program is running
+	2)Lib folder where the standard libraries are present
+	3)lib/site-packages where the third party modules are present,
