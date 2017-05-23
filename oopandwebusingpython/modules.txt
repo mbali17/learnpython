@@ -1,0 +1,8 @@
+Modules are code that has been written by others and has been open sourced to 
+be re-used by others.There are different ways of installing the modules but, the standard
+way is to use pip.
+to install a module using pip we can follow the syntax
+	pip install module_name
+well, you might run into 'pip' is not a recognised command and you would need to check if 
+the variable has the entry for the pip program.
+
