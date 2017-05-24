@@ -22,4 +22,5 @@ def insert_data():
     use it across we can use the commit method which would write the
     intermediate content to the database.
 '''
+insert_data()
 connection.close()
