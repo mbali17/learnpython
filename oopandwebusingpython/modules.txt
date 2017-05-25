@@ -24,3 +24,9 @@ when importing a module python searches the following location for the module
 	1)Local directory where the program is running
 	2)Lib folder where the standard libraries are present
 	3)lib/site-packages where the third party modules are present,
+
+
+NOTE about naming of the file.When naming a file in python make sure not to name it same 
+as the files present in the library or site-packages because when python is asked to 
+import a library it first checks the local director before checking the lib and site-packages
+directory.
