@@ -11,4 +11,4 @@ xml = BeautifulSoup(req)
 print(xml)
 #Iterating the document.
 for item in xml.findAll('title'):
-    print(item)
+    print(item) 
