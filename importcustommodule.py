@@ -10,5 +10,8 @@ To import an module, it has to be present in one of the following places
 in order for this program to work copy the example module to the
 lib/site-packages folder.
 '''
-import examplemodule
-examplemodule.sampleFunction("This is the data to be printed.")
+#Importing the complete module
+#import examplemodule
+#import specific function
+from examplemodule import sampleFunction as s 
+s("This is the data to be printed.")
