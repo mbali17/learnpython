@@ -14,4 +14,18 @@ def insertData():
             print("sucessfully inserted.")
     finally:
         connection.close()
-insertData()
+#insertData()
+
+def dynamicData():
+    try:
+        with connection.cursor() as cursor:
+            insert_sql = 'insert into country values(%s,%s,%s,%s)'
+            #assuming the value obtained from the user.
+            listOfParams = ['malaysia', 11111, 2, 'somebody']
+            cursor.execute(insert_sql,listOfParams)
+            #commit the changes to complete the insertion.
+            connection.commit()
+            print("sucessfully inserted.")
+    finally:
+        connection.close()
+dynamicData()
