@@ -1,6 +1,6 @@
 '''
 documentation:https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-BeustifulSoup is library used to parse html and xml
+BeustifulSoup is library used to parse html and xml.
 '''
 from bs4 import BeautifulSoup
 import urllib.request
