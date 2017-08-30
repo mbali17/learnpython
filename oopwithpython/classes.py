@@ -1,15 +1,20 @@
 '''
     Classes are used to structure the program and __init__ is the first
     method that is invoked when the object of the class is created.
+    A class consists of three enities 
+        Class data attributes
+        object data attributes 
+        Methods
+
 '''
 class program():
     #Class variables are declared with a class scope and can be acessed with
-    #the class name directly
+    #the class name directly: Following is the class data attributes 
     isProductionReady = True;
     #This is the method invoked when the object is created and
     #This can contain initial setiting or the default value of the object
     #self is the accessor to the object.
-    #args are formal arguments to the construcntor and kwargs are the keyword
+    #args are formal arguments to the constructor and kwargs are the keyword
     #arguments for example age='12' or height=5.1.
     def __init__(self,*args,**kwargs):
         #defining certain properties using the object if the properties are
@@ -19,7 +24,7 @@ class program():
         self.version = float(input("What is the version of the language: "))
         self.skillLevel = input("What is the skill level: ")
     #defining a method in python is same as defining a function but the deffirence
-    # is that the class method take a special param called the self.
+    # is that the class method/ instance method take a special param called the self.
     def currentStatus(self):
         prefix= 'The program is written in \t'
         return prefix +"lang:"+ self.lang + "\t version: "+str(self.version);
