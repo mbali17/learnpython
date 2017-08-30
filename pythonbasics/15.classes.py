@@ -1,4 +1,4 @@
-#classes in pthon are defined using the class keyword and is collection of mehods
+#classes in python are defined using the class keyword and is collection of mehods
 class calc:
     answer = 0;
     def add(x,y):

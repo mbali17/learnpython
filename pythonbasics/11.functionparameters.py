@@ -15,6 +15,7 @@ def website(font='arial',bg_color='red',font_color='grey',font_size=14):
     print('background color:',bg_color)
     print('font color:',font_color)
     print('font_size:',font_size)
+    
 #invoking the function with correct parameters.
 website('TNR','white','black',11)
 
@@ -28,7 +29,7 @@ uses the default value.
 '''
 website('white','black',11)
 
-#invoking the function using the actual parameter name.
+#invoking the function using the actual parameter name.Where the order does not matter. 
 website(bg_color='white',
         font='TNR',
         font_color='black',

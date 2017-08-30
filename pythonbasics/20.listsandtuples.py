@@ -15,10 +15,12 @@ can be performed.
     6)Count- count the occurrence of a given element
 '''
 def exampleFunc():
-    return 15,12,3
+    #The values returned could be different type for eg: 1,2,"aas"
+    return 15,12,22
 #This is called sequence unpacking.Tuples can be created in 2 ways
 #1)Comma separated values 1,32,42
 #2)Using the circular braces(1,23.44)
+#Note: When the values returned is lesser than the values expected then a ValueError is thrown.
 a,b,c = exampleFunc()
 print(a)
 print(b)

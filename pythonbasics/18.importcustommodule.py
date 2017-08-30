@@ -9,6 +9,8 @@ To import an module, it has to be present in one of the following places
     lib/site-packages folder.
 in order for this program to work copy the example module to the
 lib/site-packages folder.
+We can as well create virtual environment which is like a workspace for the project. and we could use the 
+python from the virtualenveironment and the python would perform the same check but,in the virtual environment 
 '''
 import examplemodule
 examplemodule.sampleFunction("This is the data to be printed.")
