@@ -2,9 +2,12 @@
     Classes are used to structure the program and __init__ is the first
     method that is invoked when the object of the class is created.
     A class consists of three enities 
-        Class data attributes
-        object data attributes 
-        Methods
+        Class data attributes -- These are variable declared outside the methods and are shared amongst all 
+        the instances of the classes
+        object data attributes-- These are instnace values which are declared inside the init mehods or
+        other methods using the self parameter passed to the method.
+        Methods- are the methods declared in the class and self(reference to the current instance) is the 
+        first parameter.
 
 '''
 class program():
