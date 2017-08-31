@@ -24,7 +24,9 @@ class program():
         self.version = float(input("What is the version of the language: "))
         self.skillLevel = input("What is the skill level: ")
     #defining a method in python is same as defining a function but the deffirence
-    # is that the class method/ instance method take a special param called the self.
+    # is that the class method/ instance method take a special param called the self as the 
+    # first parmeter.The name could be anything but it is a standard to use self.
+    #https://stackoverflow.com/questions/21694901/difference-between-python-self-and-java-this
     def currentStatus(self):
         prefix= 'The program is written in \t'
         return prefix +"lang:"+ self.lang + "\t version: "+str(self.version);
